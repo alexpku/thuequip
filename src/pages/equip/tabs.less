@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .side {
+    flex: none;
+  }
+
+  .main {
+    flex: auto;
+  }
+
+  .content {
+    flex-direction: column;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #cccccc;
+
+    &.active {
+      display: flex;
+    }
+  }
